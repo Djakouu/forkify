@@ -8,6 +8,7 @@ import * as listView from './views/listView';
 import * as likesView from './views/likesView';
 import { elements, renderLoader, clearLoader } from './views/base';
 
+
 /** Global state of the app
  * - Search object
  * - Current recipe object
