@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
-    "start": "webpack -p && node src/server.js"
+    "start": "webpack -p && node src/server.js",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Djakou kim",
   "license": "ISC",
